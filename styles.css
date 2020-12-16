@@ -1,3 +1,11 @@
+h1 {
+  margin: 20px 0px 20px 0px;
+}
+
+p {
+  margin: 15px 0px 0px 0px;
+}
+
 body {
   font-family: "Noto Sans SC", sans-serif;
 }
@@ -6,7 +14,6 @@ input {
   height: 50px;
   width: 100%;
   padding: 6px;
-  margin-top: 10px;
   margin-bottom: 10px;
   border: none;
 }
@@ -40,4 +47,22 @@ li button {
 
 li button:hover {
   background-color: pink;
+}
+
+.button-success {
+  float: right;
+  border: none;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+}
+
+#kvp-text {
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+#kvp-count {
 }

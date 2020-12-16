@@ -67,7 +67,7 @@ kvpForm.addEventListener("submit", function (event) {
   renderkvps();
 });
 
-// When a element inside of the kvpList is clicked...
+// When an element inside of the kvpList is clicked...
 kvpList.addEventListener("click", function (event) {
   var element = event.target;
 
