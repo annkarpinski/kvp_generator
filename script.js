@@ -2,6 +2,7 @@ var kvpInput = document.querySelector("#kvp-text");
 var kvpForm = document.querySelector("#kvp-form");
 var kvpList = document.querySelector("#kvp-list");
 var kvpCountSpan = document.querySelector("#kvp-count");
+var kvpString = document.querySelector("#kvp-string");
 
 var kvps = [];
 
@@ -15,6 +16,7 @@ function renderkvps() {
   // Render a new li for each kvp
   for (var i = 0; i < kvps.length; i++) {
     var kvp = kvps[i];
+    console.log("custom[" + kvp + "]&");
 
     var li = document.createElement("li");
     li.textContent = kvp;
@@ -82,3 +84,13 @@ kvpList.addEventListener("click", function (event) {
     renderkvps();
   }
 });
+
+//   function createString() {
+//     kvpString.addEventListener("submit", function (event) {
+//       event.preventDefault();
+//     // kvpCountSpan.textContent = kvps.length;
+//     for (var i = 0; i < kvps.length; i++) {
+//       var kvp = kvps[i];
+//       console.log("custom[" + kvp + "]");
+//     }
+// })

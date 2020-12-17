@@ -52,7 +52,7 @@ li button:hover {
 .button-success {
   float: right;
   border: none;
-  height: 35px;
+  height: 30px;
   cursor: pointer;
   border-radius: 4px;
   color: white;
@@ -64,5 +64,8 @@ li button:hover {
   border-radius: 4px;
 }
 
-#kvp-count {
+#kvp-string {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-top: 10px;
 }
